@@ -45,14 +45,14 @@ Example: <table>
   </tr>
 </table>
 <br>
-3) Explain the working Procedure of Virtual DOM.
-Ans)1. The Virtual DOM (VDOM) is a concept used in web development frameworks like React to improve performance and optimize updates to the user interface.<br>
+3) Explain the working Procedure of Virtual DOM.<br>
+Ans)<br>1. The Virtual DOM (VDOM) is a concept used in web development frameworks like React to improve performance and optimize updates to the user interface.<br>
 2.When you create a user interface in React or a similar framework, the initial render creates a virtual representation of the UI known as the Virtual DOM. It's a lightweight copy of the actual DOM.<br>
 3.Once the Virtual DOM is created, it needs to be rendered onto the actual browser DOM so that it can be displayed to the user. This initial rendering creates the actual HTML elements and inserts them into the DOM.<br>
 4. The Virtual DOM is a tree-like structure composed of virtual elements, which are JavaScript objects representing the HTML elements. Each virtual element corresponds to a real DOM element.<br> <br>    
 
 
-4. Mention some Differences between MySQL and No SQL<br>
+4)Mention some Differences between MySQL and No SQL<br>
 Ans)MySQL:-<br>
 It follows a structured, tabular data model with predefined schemas and fixed tables. It uses SQL (Structured Query Language) for defining and manipulating the data.<br>	It typically scales vertically, meaning it requires more powerful hardware or a larger server to handle increased loads.<br>It requires a predefined schema, meaning the structure of the data must be defined before storing it. Modifying the schema can be challenging and may require altering existing data.<br>It provides ACID (Atomicity, Consistency, Isolation, Durability) properties, ensuring data consistency and integrity. It supports transactions that guarantee all or nothing operations.<br>
 NOSQL:-<br>
@@ -61,8 +61,7 @@ NoSQL databases are designed to scale horizontally, which means they can distrib
 It offers more flexibility in terms of schema evolution. It allows for dynamic and flexible schema changes, making it easier to adapt to evolving application requirements.<br>
 NoSQL databases may have varying levels of support for ACID transactions. Some NoSQL databases prioritize scalability over strict transactional guarantees, providing eventual consistency instead.<br><br>
 
-
-5) Explain any one DBMS Technology in your own words<br>
+5)Explain any one DBMS Technology in your own words<br>
 Ans) One of DBMS technology is MongoDB<br>
 MongoDB is a document-oriented NoSQL database that provides a flexible and scalable solution for managing and storing data.<br>
 In MongoDB, data is organized and stored as documents, which are similar to JSON objects<br>
