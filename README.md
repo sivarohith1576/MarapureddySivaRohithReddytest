@@ -36,7 +36,7 @@ List tags are used to create ordered and unordered lists. <ul> represents an uno
   <li>Sambar</li>
 </ul>, prints above list in bullet form.<br>
 5)Table Tags:
-Table tags are used to create tables on a web page. They consist of the <table> tag for the table itself, <tr> for table rows, <th> for table headers, and <td> for table data. 
+Table tags are used to create tables on a web page. They consist of the table tag for the table itself, tr for table rows, th for table headers, and td for table data. 
 Example: <table>
   <tr>
     <th>Name</th>
