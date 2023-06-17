@@ -1,0 +1,28 @@
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+form {
+  display: grid;
+  gap: 10px;
+}
+
+label {
+  display: block;
+  text-align: left;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 5px;
+}
+
+button {
+  padding: 10px 20px;
+}
