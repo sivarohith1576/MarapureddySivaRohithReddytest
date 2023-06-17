@@ -1,5 +1,4 @@
-﻿<a name="br1"></a> 
-
+﻿
 **Name:-**Marapureddy Siva Rohith Reddy
 
 Theory questions
@@ -40,7 +39,7 @@ Tags are keywords surrounded by angle brackets like <html>.
 
 These are structures of HTML .Some of their categories are:-
 
-1\. Heading Tags:
+1) Heading Tags:
 
 Heading tags deﬁne headings or ꢀtles on a web page. They range from <h1> to
 
@@ -54,7 +53,7 @@ Paragraph tags deﬁne paragraphs of text. They are represented by the <p> tag.
 
 Example:-<p> This is para </p>
 
-\3) Image Tags:
+3) Image Tags:
 
 Image tags display images on a web page. They are represented by the <img>
 
@@ -116,13 +115,13 @@ frameworks like React to improve performance and opꢀmize updates to the
 
 user interface.
 
-2\.When you create a user interface in React or a similar framework, the iniꢀal
+2.When you create a user interface in React or a similar framework, the iniꢀal
 
 render creates a virtual representaꢀon of the UI known as the Virtual DOM. It's
 
 a lightweight copy of the actual DOM.
 
-3\.Once the Virtual DOM is created, it needs to be rendered onto the actual
+3.Once the Virtual DOM is created, it needs to be rendered onto the actual
 
 browser DOM so that it can be displayed to the user. This iniꢀal rendering
 
