@@ -53,7 +53,7 @@ Ans)1. The Virtual DOM (VDOM) is a concept used in web development frameworks li
 2.When you create a user interface in React or a similar framework, the initial render creates a virtual representation of the UI known as the Virtual DOM. It's a lightweight copy of the actual DOM.<br>
 3.Once the Virtual DOM is created, it needs to be rendered onto the actual browser DOM so that it can be displayed to the user. This initial rendering creates the actual HTML elements and inserts them into the DOM.<br>
 4. The Virtual DOM is a tree-like structure composed of virtual elements, which are JavaScript objects representing the HTML elements. Each virtual element corresponds to a real DOM element.<br>      
- 4) Mention some Differences between MySQL and No SQL<br>
+4) Mention some Differences between MySQL and No SQL<br>
 Ans)MySQL:-<br>
 1.	It follows a structured, tabular data model with predefined schemas and fixed tables. It uses SQL (Structured Query Language) for defining and manipulating the data.<br>
 2.	It typically scales vertically, meaning it requires more powerful hardware or a larger server to handle increased loads.<br>
