@@ -19,8 +19,8 @@ Ans)Tags:-
                 Tags are keywords surrounded by angle brackets like <html>.
          These are structures of HTML .Some of their categories are:-
      1. Heading Tags:
-Heading tags define headings or titles on a web page. They range from <h1> to <h6>, with <h1> being the highest level and <h6> the lowest. 
-Example:<h1> HELLO WORLD </h1>  prints hello world as heading
+Heading tags define headings or titles on a web page. They range from h1 to h6 with h1 being the highest level and <h6> the lowest. 
+Example:""<h1> HELLO WORLD </h1>""  prints hello world as heading
 
 
 
