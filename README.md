@@ -2,21 +2,19 @@
 
 **Name:-**Marapureddy Siva Rohith Reddy
 
-Theory quesꢀons
+Theory questions
 
-\1) Menꢀon the working of Internet Website in Terms of Front-end & Back-end
-
-Divisions
+\1) Mention the working of Internet Website in Terms of Front-end & Back-end Divisions
 
 Ans) Front end:-
 
-1\.It is interacꢀon between user and server.
+1\.It is interaction between user and server.
 
 2\.When user sends requests to server.
 
 3\.Server give its response in form of webpage.
 
-4\.Interacꢀon between user and webpage occurs via browser.
+4\.Interaction between user and webpage occurs via browser.
 
 5\.For example if user types www.google.com in browser server receives it
 
@@ -26,7 +24,7 @@ and sends google webpage as response.
 
 Back end:-
 
-1\.It is interacꢀon between server and database.
+1\.It is interaction between server and database.
 
 2\.When server search in database for data.
 
@@ -49,10 +47,6 @@ Heading tags deﬁne headings or ꢀtles on a web page. They range from <h1> to
 <h6>, with <h1> being the highest level and <h6> the lowest.
 
 Example:<h1> HELLO WORLD </h1> prints hello world as heading
-
-
-
-<a name="br2"></a> 
 
 2 )Paragraph Tags:-
 
@@ -100,17 +94,13 @@ Example: <table>
 
 <th>Name</th>
 
-<th>Designaꢀon</th>
+<th>Designation</th>
 
 </tr>
 
 <tr>
 
-<td>Rohith</td>
-
-
-
-<a name="br3"></a> 
+<td>Rohit</td>td>
 
 <td>Student</td>
 
@@ -174,8 +164,6 @@ NOSQL:-
 
 
 
-<a name="br4"></a> 
-
 1\. It employs a ﬂexible, schema-less data model. There are various types of
 
 NoSQL databases, including document-oriented, key-value, columnar,
@@ -196,7 +184,7 @@ evolving applicaꢀon requirements.
 
 4\. NoSQL databases may have varying levels of support for ACID
 
-transacꢀons. Some NoSQL databases prioriꢀze scalability over strict
+transactions. Some NoSQL databases prioriꢀze scalability over strict
 
 transacꢀonal guarantees, providing eventual consistency instead.
 
@@ -214,18 +202,18 @@ similar to JSON objects
 
 3\. MongoDB allows for dynamic and ﬂexible schemas, meaning each
 
-document within a collecꢀon can have its own unique structure.
+document within a collection can have its own unique structure.
 
 4\. MongoDB is designed to scale horizontally, allowing for distribuꢀng data
 
-across mulꢀple servers or clusters.
+across multiple servers or clusters.
 
 5\. MongoDB provides a powerful and expressive query language for
 
-retrieving and manipulaꢀng data.
+retrieving and manipulating data.
 
 
 
-<a name="br5"></a> 
+
 
 
