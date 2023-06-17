@@ -34,7 +34,7 @@ List tags are used to create ordered and unordered lists. <ul> represents an uno
   <li>Idly</li>
   <li>Vada</li>
   <li>Sambar</li>
-</ul> prints above list in bullet form.
+</ul>, prints above list in bullet form.<br>
 5)Table Tags:
 Table tags are used to create tables on a web page. They consist of the <table> tag for the table itself, <tr> for table rows, <th> for table headers, and <td> for table data. 
 Example: <table>
@@ -47,7 +47,7 @@ Example: <table>
     <td>Student</td>
   </tr>
 </table>
-
+<br>
 3) Explain the working Procedure of Virtual DOM.
 Ans)1. The Virtual DOM (VDOM) is a concept used in web development frameworks like React to improve performance and optimize updates to the user interface.
 2.When you create a user interface in React or a similar framework, the initial render creates a virtual representation of the UI known as the Virtual DOM. It's a lightweight copy of the actual DOM.
