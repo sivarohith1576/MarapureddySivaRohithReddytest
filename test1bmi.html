@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BMI Calculator</title>
+  <style>
+    .container {
+      width: 300px;
+      margin: 0 auto;
+    }
+    h2 {
+      text-align: center;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+    input[type="text"] {
+      width: 100%;
+      padding: 5px;
+    }
+    button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+    }
+    #result {
+      margin-top: 10px;
+      text-align: center;
+      font-weight: bold;
+    }
+    .error {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>BMI Calculator</h2>
+    <label>Height (in cm):</label>
+    <input type="text" id="height">
+    <label>Weight (in kg):</label>
+    <input type="text" id="weight">
+    <button onclick="calculateBMI()">Calculate BMI</button>
+    <div id="result"></div>
+  </div>
+
+  <script>
+    function calculateBMI() {
+      // Get input values
+      var heightInput = document.getElementById("height");
+      var weightInput = document.getElementById("weight");
+      var height = parseFloat(heightInput.value);
+      var weight = parseFloat(weightInput.value);
+
+      // Validate inputs
+      var error = false;
+      var errorText = "";
+      if (isNaN(height) || height <= 0) {
+        error = true;
+        errorText += "Invalid height. ";
+      }
+      if (isNaN(weight) || weight <= 0) {
+        error = true;
+        errorText += "Invalid weight. ";
+      }
+
+      // Calculate BMI and display result
+      if (!error) {
+        var bmi = weight / ((height / 100) ** 2);
+        var result = "Your BMI is " + bmi.toFixed(2);
+        document.getElementById("result").textContent = result;
+      } else {
+        document.getElementById("result").textContent = "";
+        alert("Please correct the following errors:\n" + errorText);
+      }
+    }
+  </script>
+</body>
+</html>
